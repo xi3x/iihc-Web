@@ -1,39 +1,48 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Card from '../components/Card.astro';
+import Navbar from '../components/Navbar.astro';
 ---
+<Navbar/>
+    <main>
+		<div class="bg-base-100">
+            <p>asdad</p>
+            <!-- <div class="mt-10">
+              <h2 class="card-title">Free Education!
+              </h2>
+              <p>IIH COLLEGE (Integrated Innovation and Hospitality Colleges) OFFER ZERO PAYMENT FOR ALL PUBLIC SCHOOL COMPLETER Under DepEd Voucher Program.</p>
+              <div class="card-actions justify-end">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScPh_1aT2CRjYxLcDJ8RxHcPS9-Mg2tDZHfAxkK1GBw9IOS6g/viewform" class="btn btn-secondary">Enroll Now!</a>
+              </div>
+            </div> -->
+          
+          <!-- <div class="mt-10">
+              <ul role="list" class="link-card-grid">
+                  <Card
+                  href="https://docs.astro.build/"
+                  title="Documentation"
+                  body="Learn how Astro works and explore the official API docs."
+                  />
+                  <Card
+                  href="https://astro.build/integrations/"
+                  title="Integrations"
+                  body="Supercharge your project with new frameworks and libraries."
+                  />
+                  <Card
+                  href="https://astro.build/themes/"
+                  title="Themes"
+                  body="Explore a galaxy of community-built starter themes."
+                  />
+                  <Card
+                  href="https://astro.build/chat/"
+                  title="Community"
+                  body="Come say hi to our amazing Discord community. ❤️"
+                  />
+                </ul>
+            </div> -->
+        </div>
+    </main>
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
-</Layout>
 
 <style>
 	main {
