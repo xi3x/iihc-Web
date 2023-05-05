@@ -1,90 +1,66 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Navbar from '../components/Navbar.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Navbar from "../components/Navbar.astro";
+import Header from "../components/Header.astro";
 ---
-<Navbar/>
-    <main>
-		<div class="bg-base-100">
-            <p>asdad</p>
-            <!-- <div class="mt-10">
-              <h2 class="card-title">Free Education!
-              </h2>
-              <p>IIH COLLEGE (Integrated Innovation and Hospitality Colleges) OFFER ZERO PAYMENT FOR ALL PUBLIC SCHOOL COMPLETER Under DepEd Voucher Program.</p>
-              <div class="card-actions justify-end">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScPh_1aT2CRjYxLcDJ8RxHcPS9-Mg2tDZHfAxkK1GBw9IOS6g/viewform" class="btn btn-secondary">Enroll Now!</a>
-              </div>
-            </div> -->
-          
-          <!-- <div class="mt-10">
-              <ul role="list" class="link-card-grid">
-                  <Card
-                  href="https://docs.astro.build/"
-                  title="Documentation"
-                  body="Learn how Astro works and explore the official API docs."
-                  />
-                  <Card
-                  href="https://astro.build/integrations/"
-                  title="Integrations"
-                  body="Supercharge your project with new frameworks and libraries."
-                  />
-                  <Card
-                  href="https://astro.build/themes/"
-                  title="Themes"
-                  body="Explore a galaxy of community-built starter themes."
-                  />
-                  <Card
-                  href="https://astro.build/chat/"
-                  title="Community"
-                  body="Come say hi to our amazing Discord community. ❤️"
-                  />
-                </ul>
-            </div> -->
+
+<Layout title="Page">
+  <main class="grid grid-cols-4 gap-2">
+    <div class="card bg-base-100 shadow-xl col-span-4">
+      <figure><img src="e6.jpg" alt="Shoes" /></figure>
+      <div class="card-body text-base-content">
+        <h2 class="card-title font-bold">
+          Free Education!
+          <div class="badge badge-secondary badge-outline">Visit us!</div>
+        </h2>
+        <p>
+          IIH COLLEGE (Integrated Innovation and Hospitality Colleges) OFFER
+          ZERO PAYMENT FOR ALL PUBLIC SCHOOL COMPLETER Under DepEd Voucher
+          Program. <br />
+          <br /><strong> IIHC MODALITIES OFFERED IN NEW NORMAL:</strong>
+          <br /> - FULL ONLINE LEARNING MODALITY <br />- FULL MODULAR BLENDED
+          LEARNING <br />- FACE TO FACE WITH ONLINE
+          <br />- FACE TO FACE WITH MODULAR <br />- FULL FACE TO FACE
+        </p>
+      </div>
+    </div>
+
+    <div class="card bg-base-100 shadow-xl col-span-2">
+      <figure>
+        <img src="/e7.jpg" alt="Shoes" />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          Senior High School Track <div
+            class="badge badge-secondary badge-outline"
+          >
+            Enroll now!
+          </div>
+        </h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Check SHS Tracks</button>
         </div>
-    </main>
+      </div>
+    </div>
 
-
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
+    <div class="card bg-base-100 shadow-xl col-span-2">
+      <figure><img src="e5.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">
+          College Enrollment
+          <div class="badge badge-secondary badge-outline">Check Courses!</div>
+        </h2>
+        <p>
+          IIH COLLEGE (Integrated Innovation and Hospitality Colleges) offers
+          College Programs, check the programs offered or you may visit our
+          school for inquiries.
+        </p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Check Programs Offered</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</Layout>

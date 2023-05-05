@@ -1,32 +1,80 @@
-<div class="navbar bg-primary text-base-100 h-20">
-  <div class="navbar-start">
-    <div class="dropdown m-2">
-      <label tabindex="0" class="btn btn-ghost btn-square">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-      </label>
-      <ul tabindex="0" class="menu dropdown-content mt-5 p-2 shadow bg-secondary rounded-box w-60 font-semibold">
-        <li class="hover-bordered"><a>Homepage</a></li>
-        <li class="hover-bordered"><a>Courses Offered</a></li>
-        <li class="hover-bordered"><a>Gallery</a></li>
+---
+---
+
+<div
+  class="fixed w-full top-0 left-0 z-[999] bg-primary flex justify-center items-center shadow-lg"
+>
+  <div class="flex justify-between items-center gap-2 w-full max-w-5xl">
+    <a href="/" class="flex items-center gap-2 text-primary-content">
+      <img
+        src="/iihc.jpg"
+        alt="iihc"
+        class="w-[100px] translate-y-[20px] rounded-full"
+      />
+      <span class="text-xl font-bold">IIH College</span>
+    </a>
+    <div class="flex gap-2 text-primary-content">
+      <ul class="menu menu-horizontal px-1">
+        <li>
+          <a class="tooltip btn btn-primary" data-tip="Home" href="/"
+            ><span class="material-symbols-outlined"> home</span></a
+          >
+        </li>
+        <li>
+          <a class="tooltip btn btn-primary" data-tip="Events" href="/Events"
+            ><span class="material-symbols-outlined"> image</span></a
+          >
+        </li>
+        <li>
+          <a class="tooltip btn btn-primary" data-tip="Courses" href="/Courses"
+            ><span class="material-symbols-outlined"> menu_book</span></a
+          >
+        </li>
+        <li tabindex="0">
+          <a class="tooltip btn btn-primary no-animation" data-tip="Contact">
+            <span class="material-symbols-outlined"> info</span>
+          </a>
+          <ul class="p-2 bg-secondary">
+            <li>
+              <a
+                target="_blank"
+                href="https://www.facebook.com/IIHCMARKETINGOFFICIAL2009"
+                class="tooltip tooltip-right"
+                data-tip="Facebook"
+                ><svg
+                  width="20px"
+                  height="20px"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M2 6C2 3.79086 3.79086 2 6 2H18C20.2091 2 22 3.79086 22 6V18C22 20.2091 20.2091 22 18 22H6C3.79086 22 2 20.2091 2 18V6ZM6 4C4.89543 4 4 4.89543 4 6V18C4 19.1046 4.89543 20 6 20H12V13H11C10.4477 13 10 12.5523 10 12C10 11.4477 10.4477 11 11 11H12V9.5C12 7.567 13.567 6 15.5 6H16.1C16.6523 6 17.1 6.44772 17.1 7C17.1 7.55228 16.6523 8 16.1 8H15.5C14.6716 8 14 8.67157 14 9.5V11H16.1C16.6523 11 17.1 11.4477 17.1 12C17.1 12.5523 16.6523 13 16.1 13H14V20H18C19.1046 20 20 19.1046 20 18V6C20 4.89543 19.1046 4 18 4H6Z"
+                    fill="currentColor"></path>
+                </svg></a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="mailto:iihcolleges@gmail.com"
+                class="tooltip tooltip-right"
+                data-tip="Email us"
+                ><span class="material-symbols-outlined"> mail</span></a
+              >
+            </li>
+          </ul>
+        </li>
       </ul>
     </div>
-  </div>
-
-  <div class="navbar-center">
-    <a class="btn btn-ghost normal-case text-3xl font-bold">IIH College</a>
-  </div>
-
-  <div class="navbar-end">
-    <button class="btn btn-ghost btn-circle">
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-    </button>
-
-    <button class="btn btn-ghost btn-circle">
-      <div class="indicator">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
-        <span class="badge badge-xs badge-primary indicator-item"></span>
-      </div>
-    </button>
-
+    <div>
+      <a
+        target="_blank"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScPh_1aT2CRjYxLcDJ8RxHcPS9-Mg2tDZHfAxkK1GBw9IOS6g/viewform"
+        class="btn bg-secondary">Enroll Now!</a
+      >
+    </div>
   </div>
 </div>
