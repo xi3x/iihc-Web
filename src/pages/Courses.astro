@@ -4,5 +4,67 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Courses">
-  <p>asdasd</p>
+  <div class="grid grid-cols-4">
+    <div
+      class="hero min-h-16 col-span-4"
+      style="background-image: url(/e1.jpg);"
+    >
+      <div class="hero-overlay bg-opacity-75"></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-2 text-6xl font-bold">Tracks and Programs</h1>
+          <p class="mb-5 text-center">
+            Here are the Tracks and Program offered by the IIHC on their Senior
+            High School and Collegiate.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-2 p-1">
+      <div class="card bg-base-100 shadow-xl pt-10">
+        <div class="card-body items-center text-center">
+          <h2 class="card-title font-bold text-4xl text-primary">
+            Senior High
+          </h2>
+          <br />
+          <h2 class="card-title font-bold text-secondary">TVL TRACK</h2>
+          <p class="font-thin">
+            ICT- INFORMATION & COMMUNICATIONS TECHNOLOGY
+            <br />
+            Animation NC II
+            <br />Computer Programming Java NCII<br />Computer System Servicing
+            NC II<br />Computer Programming NCII
+          </p>
+          <br />
+          <h2 class="card-title font-bold text-secondary">ACADEMIC TRACK</h2>
+          <p class="font-thin">
+            ICT- INFORMATION & COMMUNICATIONS TECHNOLOGY
+            <br />
+            Animation NC II
+            <br />Computer Programming Java NCII<br />Computer System Servicing
+            NC II<br />Computer Programming NCII
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-span-2 p-1">
+      <div class="card bg-base-100 shadow-xl pt-10">
+        <div class="card-body items-center text-center">
+          <h2 class="card-title font-bold text-4xl text-primary">
+            College Courses
+          </h2>
+          <br />
+          <h2 class="card-title font-bold text-secondary">Programs Offered</h2>
+          <p class="font-thin">
+            Bachelor of Science in Criminology
+            <br />
+            Bachelor of Science in Tourism Management
+            <br />Bachelor of Science in Accountancy<br />Bachelor of Science in
+            Infomation System<br />Bachelor of Science in Accounting Information
+            System <br /> Bachelor of Technical-Vocational Teacher Education
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
 </Layout>
